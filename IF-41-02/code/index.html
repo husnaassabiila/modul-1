@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1301174079</title>
+    </head>
+	<body>
+
+		<h1>Jurnal Modul 1</h1>
+
+		<form action="index2.html" method="POST">
+			<table border="0" width="120">
+				<tr>
+					<td>Nama Lengkap</td>
+					<td>:</td>
+					<td width="900"><input type="text" name="nama" readonly required placeholder="Husna Assabiila Yassarah"></td>
+				</tr>
+				<tr>
+					<td>Nama Panggilan</td>
+					<td>:</td>
+					<td><input type="text" name="panggilan" disabled required placeholder="Husna"></td>
+				</tr>
+				<tr>
+					<td>Username</td>
+					<td>:</td>
+					<td><input type="text" name="user_input" required placeholder="username"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>:</td>
+					<td><input type="email" name="email_input" required placeholder="email"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>:</td>
+					<td><input type="password" name="pass_input" required placeholder="password"></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>:</td>
+					<td><input type="radio" name="jk_input" placeholder="pria">Pria</input>
+						<input type="radio" name="jk_input" placeholder="wanita">Wanita</input>
+					</td>
+				</tr>
+				<tr>
+					<td>Hobi</td>
+					<td>:</td>
+					<td><input type="checkbox" name="hobi_input" placeholder="makan">Makan</input><br/>
+						<input type="checkbox" name="hobi_input" placeholder="belajar">Belajar</input><br/>
+						<input type="checkbox" name="hobi_input" placeholder="tidur">Tidur</input><br/>
+						<input type="checkbox" name="hobi_input" placeholder="coding">Coding</input><br/>
+					</td>
+				</tr>
+				<tr>
+					<td>Pendidikan Terakhir</td>
+					<td>:</td>
+					<td>
+						<select name="pt_input" class="dropdown" required placeholder="pendidikan">
+							<option value="" selected>------Pilih------</option>
+							<option value="sd">SD</option>
+							<option value="smp">SMP</option>
+							<option value="sma">SMA</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Jurusan</td>
+					<td>:</td>
+					<td>
+						<select name="jurusan_input" multiple required placeholder="jurusan">
+							<option value="informatika">Informatika</option>
+							<option value="mbti">MBTI</option>
+							<option value="siskom">Sistem Komputer</option>
+							<option value="sisfo">Sistem Informasi</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Upload Foto</td>
+					<td>:</td>
+					<td><input type="file" name="upload">
+					</td>
+				</tr>
+				<tr>
+					<td>Alamat</td>
+					<td>:</td>
+					<td>
+						<textarea rows="5" cols="40%"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" align="left">
+						<button type="submit" name="submit" required>Submit</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+    
+
+	</body>
+</html>
